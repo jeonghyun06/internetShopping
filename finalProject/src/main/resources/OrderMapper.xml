@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OrderMapper">
+	<insert id="addOrder" parameterType="com.lee.model.Order">
+		INSERT INTO orderlist
+		(`customer`, `product`, `quentity`)
+		VALUES (#{customer},
+		#{product}, #{quentity});
+	</insert>
+	<select id="getOrders" resultType="com.lee.model.Order">
+		SELECT * FROM orderlist;
+	</select>
+</mapper>

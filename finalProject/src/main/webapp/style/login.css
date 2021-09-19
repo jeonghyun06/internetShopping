@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#loginPa {
+	padding-top: 200px;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+#id {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+	background-color: #d5e4ff;
+}
+
+#pw {
+	border-bottom: 2px solid #adadad;
+	margin: 30px;
+	padding: 10px 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+	background-color: #d5e4ff;
+}
+
+#loginBtn {
+	margin-bottom: 40px;
+	width: 40%;
+	height: 40px;
+	background-size: 200%;
+	font: bold;
+}
+
+#signUpBtn {
+	margin-bottom: 40px;
+	width: 40%;
+	height: 40px;
+	background-size: 200%;
+	font: bold;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#signUp{
+	padding-top: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+td input{
+	border-bottom: 2px solid #adadad;
+	margin: 20px;
+	padding: 10px 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	height: 25px;
+	background: none;
+	background-color: #d5e4ff;
+}
+
+.submit{
+	display: inline-block;
+	width: 40%;
+	height: 40px;
+	background-size: 200%;
+	font: bold;
+}
